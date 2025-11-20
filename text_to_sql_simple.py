@@ -7,6 +7,7 @@ engine = create_engine("sqlite:///personas.db", echo=True)
 Session = sessionmaker(bind=engine)
 session = Session()
 # Cambio hecho por Juan David Moreno Carpio para prueba de colaboración
+#comentario de porueba 2
 
 # --- Definición del modelo ---
 class Persona(Base):
